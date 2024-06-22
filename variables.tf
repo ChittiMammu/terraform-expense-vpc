@@ -84,6 +84,11 @@ variable "database_subnet_cidr_tags" {
   default = {}
 }
 
+variable "database_subnet_group_tags" {
+    type = map
+    default = {}
+}
+
 ## natgateway tags
 
 variable "nat_gateway_tags" {
